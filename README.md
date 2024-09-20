@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+```
 ## Getting Started
 
 ##1 . Lakukan npm i / npm install
@@ -15,7 +15,7 @@ POSTGRES_USER=****************************************************************
 POSTGRES_HOST=****************************************************************
 POSTGRES_PASSWORD=****************************************************************
 POSTGRES_DATABASE=****************************************************************
-
+```
 
 First, run the development server:
 
