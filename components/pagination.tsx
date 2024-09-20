@@ -12,7 +12,7 @@ const Pagination = ({ totalPages }: { totalPages: number }) => {
   const currentPage = Number(searchParams.get("page")) || 1;
 
   const createPageURL = (pageNumber: string | number) => {
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
     params.set("page", pageNumber.toString());
     return `${pathname}?${params.toString()}`;
   };
