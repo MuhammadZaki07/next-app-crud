@@ -2,6 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+##1 . Lakukan npm i / npm install
+##2 . npx prisma migrate dev
+##3 . tambahkan file .env dan paste code token prisma kalian
+
+example: 
+POSTGRES_URL=****************************************************************
+POSTGRES_PRISMA_URL=****************************************************************
+POSTGRES_URL_NO_SSL=****************************************************************
+POSTGRES_URL_NON_POOLING=****************************************************************
+POSTGRES_USER=****************************************************************
+POSTGRES_HOST=****************************************************************
+POSTGRES_PASSWORD=****************************************************************
+POSTGRES_DATABASE=****************************************************************
+
+
 First, run the development server:
 
 ```bash
